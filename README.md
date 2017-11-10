@@ -7,11 +7,11 @@
   在父组件中，将发送的绑定到父组件的方法上，然后在父组件中
   - 2.中间人传递方式：(耦合低)；中间人从一个组件接收数据，并将其传递给另一个组件;本例中：
     - 点击priceQuote组件的button，触发buyStock方法，此方法将EventEmitter<PriceQuote>数据buy通过emit方法发送出去
-    - 此时，外部组件app.component.html中对<app-price-quote></app-price-quote>组件做了数据绑定并通过自己的buyHandler方法
+    - 此时，外部组件app.component.html中对```<app-price-quote></app-price-quote>```组件做了数据绑定并通过自己的buyHandler方法
     进行处理(赋值给自己的priceQ属性)
-    - 此时页面开始渲染<app-order></<app-order>组件，在app.component.html中将上一步更新的priceQ的值，绑定在<app-order></<app-order>
+    - 此时页面开始渲染```<app-order></<app-order>```组件，在app.component.html中将上一步更新的priceQ的值，绑定在```<app-order></<app-order>```
     组件的priceQuote值上
-    - <app-order></<app-order>组件接收到值，然后在自己组件html中，展示出来
+    - ```<app-order></<app-order>```组件接收到值，然后在自己组件html中，展示出来
   
 
 
