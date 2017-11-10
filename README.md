@@ -14,7 +14,7 @@
     - ```<app-order></<app-order>```组件接收到值，然后在自己组件html中，展示出来
 
 # angular生命周期
--  ![image](https://github.com/angular4-study/angular-component-touch/lifeCycle.jpg)
+-  ![image](https://github.com/angular4-study/angular-component-touch/blob/master/lifeCycle.jpg)
 
 
 
