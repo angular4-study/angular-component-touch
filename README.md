@@ -15,7 +15,15 @@
 
 # angular生命周期
 -  ![image](https://github.com/angular4-study/angular-component-touch/blob/master/lifeCycle.png)
-
+- 在组件中implements钩子接口，然后重写方法，如：
+```ts
+export class LifeComponent implements OnInit {
+  // 钩子函数
+  ngOnInit() {
+  
+  }
+}
+```
 
 
 
