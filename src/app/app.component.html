@@ -17,3 +17,10 @@
 
 <app-price-quote (buy)="buyHandler($event)"></app-price-quote>
 <app-order [priceQuote]="priceQ"></app-order>
+
+<hr>
+<app-child #child1></app-child>
+<hr>
+<app-child #child2></app-child>
+<button (click)="child2.greeting('Mary')">调用child2的greeting方法</button>
+{{message}}
